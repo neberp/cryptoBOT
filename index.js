@@ -42,7 +42,7 @@ const run = () => {
     base: "USDT",
     allocation: 0.1,
     spread: 0.2,    
-    tickInterval: 1000  
+    tickInterval: 2000  
   };
   const binanceClient = new ccxt.binance({
     apiKey: process.env.API_KEY,
